@@ -11,6 +11,7 @@ header{
         }
         li{
             font-size: 0.85rem;
+            padding: 0 0.5rem;
         }
 
 }
@@ -23,6 +24,7 @@ main{
 
 
 footer{
+    color: $dc_light;
     .pre_footer{
         background-color: $dc_primary;
     }
@@ -34,5 +36,16 @@ footer{
     h5{
         color: $dc_light;
         font-size: 0.75rem;
+    }
+    ul{
+        list-style: none;
+        padding-left: 0;
+       li{
+        font-size: 0.75rem;
+        color: $dc_gray;
+       } 
+    }
+    .footer_top{
+        background-image: url('/public/img/footer-bg.jpg');
     }
 }

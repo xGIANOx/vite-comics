@@ -98,6 +98,63 @@ export default{
       </div>
     </div>
   </div>
+  <div class="footer_top">
+    <div class="container">
+      <div class="row">
+        <div class="col-4 mt-5">
+          <div class="row">
+            <div class="col-4">
+              <strong>DC COMICS</strong>
+              <ul>
+                <li>Characters</li>
+                <li>Comics</li>
+                <li>Movies</li>
+                <li>Tv</li>
+                <li>Games</li>
+                <li>Videos</li>
+                <li>News</li>
+                <li>Jobs</li>
+              </ul>
+              <strong>SHOP</strong>
+              <ul>
+                <li>Shop Dc</li>
+                <li>Shop Dc Collectibles</li>
+              </ul>
+            </div>
+            <div class="col-4">
+              <strong>DC</strong>
+
+              <ul>
+                <li>Terms Of Use</li>
+                <li>Privacy polycy(New)</li>
+                <li>Ad Choices</li>
+                <li>Advertising</li>
+                <li>Jobs</li>
+                <li>Subscriptions</li>
+                <li>Talent Workshop</li>
+                <li>CPSC certificates</li>
+                <li>Ratings</li>
+                <li>Shop help</li>
+                <li>Contact Us</li>
+              </ul>
+            </div>
+            <div class="col-4">
+              <strong>SITES</strong>
+
+              <ul>
+                <li>Dc</li>
+                <li>MAD Magazine</li>
+                <li>DC Kids</li>
+                <li>DC Universe</li>
+                <li>DC Power Visa</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
  </footer>
 </template>
 
