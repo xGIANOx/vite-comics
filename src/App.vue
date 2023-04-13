@@ -64,7 +64,7 @@ export default{
   <div class="container">
     <div class="row">
       <div class="col">
-        <h3> Content goes here </h3>
+        <h3> --Content goes here-- </h3>
       </div>
     </div>
   </div>
@@ -149,6 +149,40 @@ export default{
                 <li>DC Power Visa</li>
               </ul>
             </div>
+          </div>
+        </div>
+        <div class="col-8 d-flex justify-content-center">
+          <img class="dc_logo_bg" src="/img/dc-logo-bg.png" alt="">
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer_bottom">
+    <div class="container">
+      <div class="row ">
+        <div class="col-6">
+          <button class="btn btn-outline"> SIGN-UP NOW</button>
+        </div>
+        <div class="col-6 text-end">
+          <div class="follow d-flex align-items-center">
+            <h5 class="me-4">FOLLOW US</h5>
+            <ul class="d-flex">
+              <li>
+                <img src="/img/footer-facebook.png" alt="">
+              </li>
+              <li>
+                <img src="/img/footer-periscope.png" alt="">
+              </li>
+              <li> 
+                <img src="/img/footer-pinterest.png" alt="">
+              </li>
+              <li>
+                <img src="/img/footer-youtube.png" alt="">
+              </li>
+              <li>
+                <img src="/img/footer-twitter.png" alt="">
+              </li>
+            </ul>
           </div>
         </div>
       </div>

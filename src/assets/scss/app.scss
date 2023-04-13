@@ -27,11 +27,11 @@ footer{
     color: $dc_light;
     .pre_footer{
         background-color: $dc_primary;
-    }
-    img{
-        width: 50px;
-        max-height: 64px;
-        
+        img{
+            width: 50px;
+            max-height: 64px;
+            
+        }
     }
     h5{
         color: $dc_light;
@@ -46,6 +46,35 @@ footer{
        } 
     }
     .footer_top{
+        position: relative;
         background-image: url('/public/img/footer-bg.jpg');
+        .col-8{
+            height: fit-content;
+        }
+        .dc_logo_bg{
+            width: 70%;
+            height: 70%;
+        }
+    }
+    .footer_bottom{
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        background-color: $dc_darker_gray;
+        padding: 3rem 0;
+        button{
+            color: $dc_light;
+            &:hover{
+                border: 1px solid $dc_primary;
+            }
+        }
+        li{
+            padding: 0 0.5rem;
+        }
+        h5{
+            font-size: 1rem;
+            color: $dc_primary;
+        }
     }
 }
