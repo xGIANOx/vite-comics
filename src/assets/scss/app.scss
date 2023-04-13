@@ -20,3 +20,19 @@ main{
     color: $dc_light;
     padding: 2rem 0;
 }
+
+
+footer{
+    .pre_footer{
+        background-color: $dc_primary;
+    }
+    img{
+        width: 50px;
+        max-height: 64px;
+        
+    }
+    h5{
+        color: $dc_light;
+        font-size: 0.75rem;
+    }
+}

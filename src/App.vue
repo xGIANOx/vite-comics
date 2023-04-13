@@ -69,6 +69,36 @@ export default{
     </div>
   </div>
  </main>
+
+ <footer>
+  <div class="pre_footer">
+    <div class="container ps-5 pe-5">
+      <div class="row">
+        <div class="col d-flex align-items-center py-4">
+          <img src="/img/buy-comics-digital-comics.png" alt="">
+          <h5 class="ms-3 mb-0">DIGITAL COMICS</h5>
+        </div>
+        <div class="col d-flex align-items-center py-4">
+          <img src="/img/buy-comics-merchandise.png" alt="">
+          <h5 class="ms-3 mb-0">DC MERCHANDISE</h5>
+        </div>
+        <div class="col d-flex align-items-center py-4">
+          <img src="/img/buy-comics-subscriptions.png" alt="">
+          <h5 class="ms-3 mb-0">SUBSCRIPTION</h5>
+        </div>
+        <div class="col d-flex align-items-center py-4">
+          <img src="/img/buy-comics-shop-locator.png" alt="">
+          <h5 class="ms-3 mb-0">COMIC SHOP LOCATOR</h5>
+        </div>
+        <div class="col d-flex align-items-center py-4">
+          <img src="/img/buy-dc-power-visa.svg" alt="">
+          <h5 class="ms-3 mb-0">DC POWER VISA</h5>
+        </div>
+        
+      </div>
+    </div>
+  </div>
+ </footer>
 </template>
 
 <style>
