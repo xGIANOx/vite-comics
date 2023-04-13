@@ -59,6 +59,16 @@ export default{
 </nav>
   
  </header>
+
+ <main>
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h3> Content goes here </h3>
+      </div>
+    </div>
+  </div>
+ </main>
 </template>
 
 <style>
