@@ -1,0 +1,16 @@
+@use 'node_modules/bootstrap/scss/bootstrap.scss';
+@use './partials/variables' as *;
+
+header{
+
+        nav{
+            background-color: $dc_light;
+        }
+        img{
+            padding: 0.5rem 0;
+        }
+        li{
+            font-size: 0.85rem;
+        }
+
+}
