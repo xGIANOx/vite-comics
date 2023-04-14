@@ -20,11 +20,11 @@ export default{
 </script>
 
 <template>
+  
  <SiteHeader></SiteHeader>
  
  <SiteMain></SiteMain>
 
- 
  <SiteFooter></SiteFooter>
 
 </template>
