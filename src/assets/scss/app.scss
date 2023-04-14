@@ -12,6 +12,13 @@ header{
         li{
             font-size: 0.85rem;
             padding: 0 0.5rem;
+            height: 100%;
+            a{
+                color: $dc_dark;
+            }
+        }
+        li.active{
+            border-bottom: 5px solid $dc_primary;
         }
 
 }
@@ -19,7 +26,7 @@ header{
 main{
     background-color: $dc_dark;
     color: $dc_light;
-    padding: 2rem 0;
+    padding: 8rem 0;
 }
 
 
@@ -46,10 +53,13 @@ footer{
        } 
     }
     .footer_top{
-        position: relative;
         background-image: url('/public/img/footer-bg.jpg');
         .col-8{
-            height: fit-content;
+            z-index: 100;
+            background: url('./src/assets/images/dc-logo-bg.png');
+            background-repeat: no-repeat;
+            background-position: 120px ;
+
         }
         .dc_logo_bg{
             width: 70%;
@@ -57,9 +67,6 @@ footer{
         }
     }
     .footer_bottom{
-        position: absolute;
-        bottom: 0;
-        left: 0;
         width: 100%;
         background-color: $dc_darker_gray;
         padding: 3rem 0;
