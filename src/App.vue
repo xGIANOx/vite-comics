@@ -1,6 +1,8 @@
 <script>
 import SiteHeader from './components/SiteHeader.vue';
 import SiteFooter from './components/SiteFooter.vue';
+import SiteMain from './components/SiteMain.vue';
+
 
 export default{
   data(){
@@ -11,6 +13,7 @@ export default{
   components: {
     SiteHeader,
     SiteFooter,
+    SiteMain,
   }
 }
 
@@ -19,17 +22,9 @@ export default{
 <template>
  <SiteHeader></SiteHeader>
  
+ <SiteMain></SiteMain>
 
- <main>
-  <div class="container">
-    <div class="row">
-      <div class="col">
-        <h3> --Content goes here-- </h3>
-      </div>
-    </div>
-  </div>
- </main>
-
+ 
  <SiteFooter></SiteFooter>
 
 </template>
